@@ -22,7 +22,7 @@ Event Management App (Event Hub) is an advanced React application for managing e
 
 ## Chakra UI Checkbox Issue
 
-During development, an issue was encountered with the Chakra UI Checkbox implementation. Although the category data, state management, and event handling logic were all working correctly, clicking the Games or Relaxation checkbox unexpectedly toggled the Sports category. After debugging the data flow and verifying that each category had the correct ID, the issue was isolated to the Chakra checkbox implementation/configuration rather than the React state logic. The problem was resolved by replacing the Chakra checkbox component with a native HTML <input type="checkbox">, while retaining Chakra UI components for layout and styling. The native checkboxes correctly toggle their respective categories and continue to use the existing React state management logic. This toke way longer time than expected to debug.
+During development, an issue was encountered with the Chakra UI Checkbox implementation. Although the category data, state management, and event handling logic were all working correctly, clicking the Games or Relaxation checkbox unexpectedly toggled the Sports category. After debugging the data flow and verifying that each category had the correct ID, the issue was isolated to the Chakra checkbox implementation/configuration rather than the React state logic. The problem was resolved by replacing the Chakra checkbox component with a native HTML <input type="checkbox">, while retaining Chakra UI components for layout and styling. The native checkboxes correctly toggle their respective categories and continue to use the existing React state management logic. This took way longer time than expected to debug.
 
 ## Features
 
